@@ -1,0 +1,237 @@
+@font-face{
+	font-family: "Web-Raleway";
+	src:url('font/Raleway-Regular.ttf');
+	font-style: normal;font-weight: normal;
+}
+
+@font-face{
+	font-family: "Web-Raleway-Bold";
+	src:url('font/Raleway-Bold.ttf');
+	font-style: normal;font-weight: normal;
+}
+
+/*default configuration*/
+body{
+	margin : 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #373737;
+
+}
+
+.clear{
+	float:none;
+	clear:both;
+}
+
+.center{
+	width: 961px;
+	margin :0 auto;
+
+}
+
+/* header configuration */
+#header{
+	padding: 40px 0;
+}
+
+#header #logo{
+	float: left;
+}
+#header .navigation{
+	float: right;
+}
+#header .navigation ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#header .navigation ul li{
+	display:inline-block;
+	font-size: 18px;
+	font-family: "Web-Raleway-Bold"
+}
+
+#header .navigation ul li a{
+	display: inline-block;
+	padding: 25px;
+	text-transform: uppercase;
+	color: #16171b;
+	text-decoration: none;
+}
+
+#header .navigation ul li a:hover{
+	color: #0b63cc;
+	-webkit-transition:0.3s;
+	-moz-transition:0.3s;
+	-ms-transition:0.3s;
+	-o-transition:0.3s;
+	transition:0.3s;
+}
+
+/*banner configuration*/
+#banner{
+	background: url("../image/banner_bg.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	background-size:cover;
+	padding:115px;
+	color: #ffffff;
+	text-align: center;
+}
+
+#banner h1{
+	font-size:44px;
+	font-family:"Web-Raleway-Bold";
+	text-transform: uppercase;
+	font font-weight: normal;
+}
+
+#banner h2{
+	font-size:24px;
+	font-family:"Web-Raleway";
+	text-transform: uppercase;
+	font font-weight: normal;
+	margin-bottom: 40px;
+}
+
+.btn-primary{
+	border: solid 3px #ffffff;
+	color :#fff;
+	text-transform: "Web-Raleway";
+	font size: 16px;
+	text-decoration: none;
+	padding: 10px;
+	display: inline-block;
+}
+
+.btn-primary:hover{
+	color: #0b63cc;
+	-webkit-transition:0.3s;
+	-moz-transition:0.3s;
+	-ms-transition:0.3s;
+	-o-transition:0.3s;
+	transition:0.3s;
+}
+/* this for our services*/
+#our-services{
+	padding: 25px 0;
+	font-family: "Web-Raleway";
+}
+
+#our-services .title-content{
+	text-transform: uppercase;
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#our-services .title-content span{
+	font-family: "Web-Raleway-Bold"
+}
+
+.content-list .list-services{
+	background: #070de7;
+	padding:18px;
+	float: left;
+	width: 45%;
+	color: #ffffff;
+
+}
+
+.content-list .list-services:last-child{
+	float:right;
+}
+	
+.content-list .list-services{
+	font-family: "Raleway-Regular"
+	font-size:10px 26px;
+	margin-bottom: 10px;
+	margin-top: 0;
+}
+
+.content-list .list-services .text{
+	line-height: 25px;
+	margin-bottom: 10px
+}
+.content-list .list-services .button a{
+	padding: 10px;
+	display: inline-block;
+	border:solid 2px #ffffff;
+	text-decoration: none;
+	color:#ffffff;
+	text-transform: uppercase;
+	font-family: "Web-Raleway"
+}
+
+.content-list .list-services .button a:hover{
+	color: #0b63cc;
+	-webkit-transition:0.3s;
+	-moz-transition:0.3s;
+	-ms-transition:0.3s;
+	-o-transition:0.3s;
+	transition:0.3s;
+}
+
+/*this notification subscribe configuration*/
+
+#notification-subscribe{
+	padding: 25px 0;
+	background: #6d6e70;
+	margin-bottom: 0px;
+
+
+}
+
+#notification-subscribe h2{
+	font-family: "Web-Raleway-Bold";
+	text-transform: uppercase;
+	color: #16171b;
+	font-size: 30px;
+	margin-bottom: 0;
+}
+
+#notification-subscribe h3{
+	font-family: "Web-Raleway";
+	color: #16171b;
+	font-size: 20px;
+	font-weight: normal;
+
+}
+
+#notification-subscribe .left-content{
+	float: left;
+}
+
+#notification-subscribe .right-content{
+	float: right;
+	padding-top:35px;
+}
+
+#notification-subscribe .large-btn{
+	display: inline-block;
+	padding: 10px;
+	color: #16171b;
+	border:solid 3px #070de7;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Web-Raleway-Bold";
+	font-size: 25px;
+}	
+
+#notification-subscribe .large-btn:hover{
+	color: #0b63cc;
+	-webkit-transition:0.3s;
+	-moz-transition:0.3s;
+	-ms-transition:0.3s;
+	-o-transition:0.3s;
+	transition:0.3s;
+}
+
+/*this for footer configuration*/
+#footer{
+	background: #16171b;
+	padding: 40px 0;
+	text-align: center;
+	color: #040404;
+	font-size: 16px;
+}
